@@ -1,0 +1,98 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #FFFFFF;
+    color: #212121;
+    
+
+}
+.link{
+    text-decoration: none;  
+}
+.link:hover,
+.link:focus{
+    color:red;
+}
+.linkportfolio{
+    color:#2196F3;
+    text-decoration: none;
+}
+.linkportfolio:hover,
+.linkportfolio:focus {
+    color: red;
+}
+.button{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:focus{
+    color:rgb(194, 22, 122);
+}
+.buttonall{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    background: #2196F3;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.buttonall:hover,
+.buttonall:focus{
+    color: rgb(194, 22, 122);
+}
+header > a,
+footer > a{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: #2196F3;
+}
+header li > a{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #212121;
+}
+header > ul > li > a{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #757575;
+
+}
+
+
+main h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+}
+
+main p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #757575;
+}
+footer{
+    background: #2F303A;
+}
+footer address > a{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+footer li > a{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color:#FFFFFF99;
+}
