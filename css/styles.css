@@ -1,25 +1,148 @@
+:root{
+    --primary-text-color:#212121;
+    --secondary-text-color:#757575;
+    --primary-title-color:#212121;
+    --secondary-title-color:#FFFFFF;
+    --accent-color:#2196F3;
+}
 body {
     font-family: 'Roboto', sans-serif;
-    background: #FFFFFF;
-    color: #212121;
-    
-
+    background:var(--secondary-title-color);
+    color: var(--primary-title-color);
+    letter-spacing: 0.03em;
 }
-.link{
-    text-decoration: none;  
-}
-.link:hover,
-.link:focus{
-    color:red;
-}
-.linkportfolio{
-    color:#2196F3;
+a{
     text-decoration: none;
+}
+/*main page*/
+/*Header*/
+.logo{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: var(--accent-color)
+}
+.nav-link{
+        font-weight: 500;
+        font-size:14px;
+        line-height: calc(16 / 14);
+        letter-spacing: 0.02em;
+        color:var(--primary-text-color);
+}
+.nav-link:hover,
+.nav-link:focus{
+    color:var(--accent-color);
+}
+.studio-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+    color: var(--accent-color);
+}
+.studio-link:hover,
+.studio-link:focus{
+    color: brown;
+}
+
+.contact-link{
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+.contact-link:hover,
+.contact-link:focus{
+    color: var(--accent-color);
+}
+.mail-link{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: calc(16 / 14);
+        letter-spacing: 0.02em;
+        color: var(--accent-color);
+}
+.mail-link:hover,
+.mail-link:focus{
+    color: brown;
+}
+/*main*/
+/*hero section*/
+.hero-section{
+    background-color: #2F303A;
+}
+.hero-title{
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 60px calc(60 / 44);
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--secondary-title-color);
+}
+.hero-button{
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 30px calc(30 / 16);
+        color: var(--secondary-title-color);
+        background-color: var(--accent-color);
+}
+.hero-button:hover,
+.hero-button:focus{
+    color:#4a5964;
+    cursor: pointer;
+}
+/*features*/
+.features-title{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: calc(16 / 14);
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--primary-text-color);
+}
+.feature-text{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: calc(24 / 14);
+        color: var(--secondary-text-color);
+}
+/*what we do*/
+.title{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: calc(42 / 36);
+        color:var(--primary-text-color);
+}
+/*our team*/
+.team-name{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: calc(19 / 16);
+        color: var(--primary-text-color);
+}
+.team-text{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: calc(19 / 16);
+        color: var(--secondary-text-color);
+}
+/*portfolio page*/
+/*header*/
+.linkportfolio{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        color:var(--accent-color);
 }
 .linkportfolio:hover,
 .linkportfolio:focus {
     color: red;
 }
+/*main*/
+/*button section*/
 .button{
     font-weight: 500;
     font-size: 16px;
@@ -46,53 +169,31 @@ body {
 .buttonall:focus{
     color: rgb(194, 22, 122);
 }
-header > a,
-footer > a{
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    color: #2196F3;
+/*project section*/
+.project-title{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: calc(36 / 18);
+        letter-spacing: 0.06em;
+        color: var(--primary-text-color);
 }
-header li > a{
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    color: #212121;
-}
-header > ul > li > a{
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    color: #757575;
-
-}
-
-
-main h3 {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 36px;
-}
-
-main p {
+.project-text{
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
     color: #757575;
 }
+/*footer*/
 footer{
     background: #2F303A;
 }
-footer address > a{
+.footer-address{
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     color: #FFFFFF;
 }
-footer li > a{
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    color:#FFFFFF99;
+.footer-address:hover,
+.footer-address:focus{
+    color: var(--accent-color);
 }
