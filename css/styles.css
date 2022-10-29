@@ -14,6 +14,9 @@ body {
 a{
     text-decoration: none;
 }
+ul{
+    list-style: none;
+}
 /*main page*/
 /*Header*/
 .logo{
@@ -34,17 +37,6 @@ a{
 .nav-link:focus{
     color:var(--accent-color);
 }
-.studio-link {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: calc(16 / 14);
-    letter-spacing: 0.02em;
-    color: var(--accent-color);
-}
-.studio-link:hover,
-.studio-link:focus{
-    color: brown;
-}
 
 .contact-link{
     font-size: 14px;
@@ -56,17 +48,7 @@ a{
 .contact-link:focus{
     color: var(--accent-color);
 }
-.mail-link{
-        font-weight: 500;
-        font-size: 14px;
-        line-height: calc(16 / 14);
-        letter-spacing: 0.02em;
-        color: var(--accent-color);
-}
-.mail-link:hover,
-.mail-link:focus{
-    color: brown;
-}
+
 /*main*/
 /*hero section*/
 .hero-section{
@@ -156,18 +138,9 @@ a{
 .button:focus{
     color:rgb(194, 22, 122);
 }
-.buttonall{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    color: #FFFFFF;
-    background: #2196F3;
-    border-radius: 4px;
-    cursor: pointer;
-}
-.buttonall:hover,
-.buttonall:focus{
-    color: rgb(194, 22, 122);
+.button:active{
+        color: #FFFFFF;
+        background: #2196F3;
 }
 /*project section*/
 .project-title{
@@ -188,12 +161,15 @@ footer{
     background: #2F303A;
 }
 .footer-address{
+    font-style: normal;
+}
+.footer-address-link{
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     color: #FFFFFF;
 }
-.footer-address:hover,
-.footer-address:focus{
+.footer-address-link:hover,
+.footer-address-link:focus{
     color: var(--accent-color);
 }
