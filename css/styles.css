@@ -139,8 +139,8 @@ ul{
     color:rgb(194, 22, 122);
 }
 .button:active{
-        color: #FFFFFF;
-        background: #2196F3;
+        color: var(--secondary-title-color);
+        background: var(--accent-color);
 }
 /*project section*/
 .project-title{
