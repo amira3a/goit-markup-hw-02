@@ -60,16 +60,17 @@ ul{
 .hero-title{
         font-weight: 900;
         font-size: 44px;
-        line-height: 60px calc(60 / 44);
+        line-height: calc(60 / 44);
         text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;
         color: var(--secondary-title-color);
 }
 .hero-button{
+        font-family: 'Roboto';
         font-weight: 700;
         font-size: 16px;
-        line-height: 30px calc(30 / 16);
+        line-height: calc(30 / 16);
         color: var(--secondary-title-color);
         background-color: var(--accent-color);
 }
@@ -120,6 +121,7 @@ ul{
 /*main*/
 /*button section*/
 .button{
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
