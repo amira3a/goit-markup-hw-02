@@ -37,6 +37,9 @@ ul{
 .nav-link:focus{
     color:var(--accent-color);
 }
+.current-link{
+    color:var(--accent-color)
+}
 
 .contact-link{
     font-size: 14px;
@@ -111,18 +114,6 @@ ul{
         color: var(--secondary-text-color);
 }
 /*portfolio page*/
-/*header*/
-.linkportfolio{
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 0.02em;
-        color:var(--accent-color);
-}
-.linkportfolio:hover,
-.linkportfolio:focus {
-    color: red;
-}
 /*main*/
 /*button section*/
 .button{
@@ -171,5 +162,16 @@ footer{
 }
 .footer-address-link:hover,
 .footer-address-link:focus{
+    color: var(--accent-color);
+}
+.footer-contact-link{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: calc(24 / 14);
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+}
+.footer-contact-link:hover,
+.footer-contact-link:focus{
     color: var(--accent-color);
 }
